@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Mimic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="mainPage.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation and search bar -->
+         <div class="nav-bar">
+            <div class="nav1">
+                <div class="left_nav">
+                    <span>Hi! <a href="#">Sign in</a> or <a href="#">register</a></span>
+                    <span><a href="#" class="no-decr">Help & Contact</a></span>
+                </div> 
+                <div class="right_nav">
+                    <span><a href="#" class="no-decr">Sell</a></span>
+                    <div class="dropdown">
+                        <span class="dropbtn"><a href="#" class="no-decr">My eBay<i class='bx bxs-chevron-down'></i></a></span>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                       
+                    <span><a href="#" class="no-decr"><i class='bx bx-bell'></i></a></span>
+                    <span><a href="#" class="no-decr"><i class='bx bx-cart'></i></a></span>
+                    
+                </div>
+            </div>
+             <!--logo & search-->
+             <div class="nav2">
+                <div class="logo"><img src="/Electronics, Cars, Fashion, Collectibles & More _ eBay_files/EbayLogo.svg" class="ebay-logo"></div>
+                <div class="shop-by-dropdown">
+                        <button onclick="myFunction(event)" class="shop-by dropbtn">Shop by category
+                            <i class='bx bxs-chevron-down'></i>
+                        </button>
+                        <div id="shopby-dropdown-content" class="dropdown-content">
+                          <div class="row">
+                            <div class="column-dropdown">
+                              <a href="#"><h4>Category 1</h4></a>
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            <div class="column-dropdown">
+                              <a href="#"><h4>Category 2</h4></a>
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            <div class="column-dropdown">
+                              <a href="#"><h4>Category 3</h4></a>
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                              <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                              <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                              <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                              <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                              <div class="column-dropdown">
+                                <a href="#"><h4>Category 1</h4></a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="search">
+                     <input class="left-search form-control me-2" type="search" placeholder="Search for anything">
+                     <div id="categories-dropbtn" class="dropbtn">All categories<i id="bx-categories-down" class='bx bxs-chevron-down'></i></div>
+                     <div id="myDropdown-category" class="dropdown-content">
+                        <span>Link 1</span>
+                        <span>Link 2</span>
+                        <span>Link 3</span>
+                      </div>
+                </div>
+                <div class="btn-search">Search</div>
+             </div>
+
+            <!-- horizontal categories --> 
+             <div class="nav3">
+                <div class="hori-nav-container">
+                <span class="hori-nav">
+                    <a href="#">Saved</a>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Electronics</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_electronics.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Fashion</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_fashion.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Computers & Tablets</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_computers.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Jewellery & Watches</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_watches.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Beauty</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_beauty.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Toy</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_toys.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Collectibles</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_collectables.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                <span class="hori-nav">
+                    <a href="#">Home</a>
+                    <div class="hori-dropdown-content">  
+                        <div class="row">
+                          <div class="hori-column">
+                            <h5 class="categ">Category 1</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="hori-column">
+                            <h5 class="categ">Category 2</h5>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                          <div class="categ-img">
+                            <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/navif_770x270_home.jpg"/>
+                          </div>
+                        </div>
+                    </div>
+                </span>
+                
+             </div>
+            </div>
+        </div>
+
+    </header>
+        
+        <!-- Place this code below your navbar -->
+        <!-- Place this code below your navbar, slider part  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- big div for whole slider -->
+         <!-- data-bs-ride : initialize the carousel to start automatically when the page is loaded. -->
+        <!-- data-bs-interval : defines how long (in milliseconds) each slide will be displayed before transitioning to the next slide. -->
+        <div class="carousel-inner">
+ 
+            <div class="carousel-item active"> <!-- carousel item one by one -->
+                <div class="row g-0">
+         
+                    <!-- Caption Container -->
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div class="caption-container" style="background-color: #500750; color: #c5e5fb;">
+                            <div class="caption">
+                                <h2>Toys Of Joy</h2>
+                                <h4>Up To 50% Discount. Free <br>Shipping.</h4>
+                                <a href="#"
+                                class="btn btn-light" style="background-color: #500750; color: #c5e5fb; border: 2px solid #c5e5fb; padding: 10px 20px; border-radius: 30px;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Content (Image) -->
+                    <div class="col-lg-8">
+                        <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/$_57.jfif" class="d-block w-100" alt="Image 1">
+                    </div>
+ 
+                </div>
+            </div>
+           
+            <!-- slide 2 -->
+            <div class="carousel-item">
+                <div class="row g-0">
+                    <!-- Caption Container -->
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div class="caption-container" style="background-color: #121258; color: #fbcd25;">
+                            <div class="caption">
+                                <h2>Give Watches The<br>Time Of Day</h2>
+                                <h4>Up To 30% Discount. Free <br>Shipping.</h4>
+                                <a href="#"
+                                class="btn btn-light" style="background-color: #121258; color: #fbcd25; border: 2px solid #fbcd25; padding: 10px 20px; border-radius: 30px;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Content (Image) -->
+                    <div class="col-lg-8">
+                        <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/$_57 (1).jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+ 
+           
+            <!-- slide 3 -->
+            <div class="carousel-item">
+                <div class="row g-0">
+                    <!-- Caption Container -->
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div class="caption-container" style="background-color: #d11da4; color: #ffffff;">
+                            <div class="caption">
+                                <h2>Get Active!</h2>
+                                <h4>Up To 50% Off Sporting Goods.<br>Free Shipping.</h4>
+                                <a href="#"
+                                class="btn btn-light" style="background-color: #d11da4; color: #ffffff; border: 2px solid #ffffff; padding: 10px 20px; border-radius: 30px;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Content (Image) -->
+                    <div class="col-lg-8">
+                        <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/$_57 (2).jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- slide 4 -->
+            <div class="carousel-item">
+                <div class="row g-0">
+                    <!-- Caption Container -->
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div class="caption-container" style="background-color: #f5a0d9; color: #500750;">
+                            <div class="caption">
+                                <h2>Save On Home<br>Essentials</h2>
+                                <h4>Up To 60% Discount. Free<br>Shipping.</h4>
+                                <a href="#"
+                                class="btn btn-light" style="background-color: #f5a0d9; color: #500750; border: 2px solid #500750; padding: 10px 20px; border-radius: 30px;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Content (Image) -->
+                    <div class="col-lg-8">
+                        <img src="Electronics, Cars, Fashion, Collectibles & More _ eBay_files/$_57 (3).jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+           
+ 
+        </div>
+ 
+        <!-- Controls --> <!-- controls allow users to move to the previous or next slide in the carousel manually by clicking on buttons.-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+ 
+        <!-- Indicators --> <!-- to navigate directly to a specific slide within the carousel. -->
+         <!-- data-bs-slide : Specifies which slide the button will navigate to -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    </div>
+ 
+    
+  
+
+
+
+    
+
+    <main>
+        <!-- Main content including product listings -->
+        <!-- Aug Banner -->
+        <div class="container">
+            <div class="row">
+                <div id="aug-ban" class="col-12 rounded-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div id="aug-ban-text" class="text-start">
+                            <h3>August Finds for Men!</h3>
+                            <span>Check out our men's clothing sale now!</span>
+                        </div>
+                        <button id="aug-ban-btn" type="button" class="btn btn-outline-secondary btn-lg">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Auto parts -->
+        <div class="container my-3 mb-5">
+            <h2 class="text-left mb-4">Find Your Auto Parts</h2>
+            <div class="row justify-content-center auto-parts">
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="	https://i.ebayimg.com/images/g/SFkAAOSwi7Vb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Mercedes Benz</p>
+                </a>
+                
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/GJkAAOSwl7db9OPg/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>BMW</p>
+                </a>
+                
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/ALEAAOSwBgZb9OPe/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Honda</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/qAUAAOSwNphb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Toyota</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/SYcAAOSw7thb9OPe/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Mitsubishi</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/I28AAOSwYUZb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Nissan</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/pCoAAOSwL4Rb9OPg/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Proton</p>
+                </a>
+
+            </div>
+        </div>
+        
+        <!-- Watch brand -->
+        <div class="container my-3 mb-5">
+            <h2 class="text-left mb-4">Top Watch Brand</h2>
+            <div class="row justify-content-center auto-parts">
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/DR0AAOSwEppb9OPg/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Casio</p>
+                </a>
+                
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/mI0AAOSwwPdb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>G-Shock</p>
+                </a>
+                
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/D88AAOSwEwhb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Seiko</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/CBoAAOSwAuJb9OPe/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Coach</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/lnMAAOSwckVb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Michael Kors</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/PGYAAOSwW~Jb9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Suunto</p>
+                </a>
+
+                <a href="mercedes-benz-parts.html" class="col text-center text-decoration-none">
+                    <img src="https://i.ebayimg.com/images/g/LIkAAOSwqS5b9OPf/s-l500.webp" alt="Mercedes Benz" class="img-fluid rounded-circle mb-2">
+                    <p>Addidas</p>
+                </a>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <!-- Footer content -->
+        <div class="footer">
+            <div class="footer-nav">
+                <div class="f-nav-text">
+                    <a href="#">About eBay</a>
+                    <a href="#">Community</a>
+                    <a href="#">Security Centre</a>
+                    <a href="#">Seller Centre</a>
+                    <a href="#">Policies</a>
+                    <a href="#">Help & Contact</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="copyright">Copyright © 1995-2024 eBay Inc. All Rights Reserved. 
+                   <a href="">User Agreement</a>, <a href="">Privacy</a>, <a href="">Payments Terms of Use</a>, <a href="">Cookies</a> and <a href="">AdChoice</a></div>
+            </div>
+        </div>
+
+    </footer>
+    
+
+    
+    <!-- Bootstrap JS (Ensure Bootstrap's JS and dependencies are linked correctly) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
